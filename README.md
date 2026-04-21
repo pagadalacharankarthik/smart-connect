@@ -101,5 +101,82 @@ SmartConnect provides a unified platform where:
 ```bash
 git clone https://github.com/pagadalacharankarthik/smart-connect.git
 cd smart-connect
-
+```
 ###2. Install Dependencies
+```bash
+npm install
+```
+###3. Run Development Server
+```bash
+npm run dev
+```
+###4. Open App
+- Visit: http://localhost:3000
+
+---
+## Project Structure
+smartconnect/
+├── app/
+│   ├── dashboard/
+│   ├── events/
+│   ├── event/[id]/
+│   ├── create-event/
+│   ├── org-dashboard/
+│   ├── my-certificates/
+│   ├── admin/analytics/
+│   ├── login/signup/
+│   └── layout.tsx
+│
+├── components/
+│   ├── navbar.tsx
+│   ├── chatbot.tsx
+│   ├── leaderboard.tsx
+│   ├── event-insights.tsx
+│   └── ...
+│
+├── lib/
+│   ├── storage.ts
+│   ├── dummy-data.ts
+│   └── utils.ts
+│
+└── public/
+
+---
+##🌐 Deployment (Vercel)
+
+
+#1. Push to GitHub
+```bash
+git add .
+git commit -m "Eventify deployment"
+git push origin main
+```
+#2. Deploy
+- Go to https://vercel.com
+- Click New Project
+- Import your GitHub repo
+- Click Deploy
+- Your app will be live
+
+####🌟 Final Note
+
+#Eventify — Empowering Communities Through Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
