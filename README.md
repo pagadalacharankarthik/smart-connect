@@ -114,8 +114,10 @@ npm run dev
 - Visit: http://localhost:3000
 
 ---
-## Project Structure
-smartconnect/
+## 📁 Project Structure
+
+```plaintext
+eventify/
 ├── app/
 │   ├── dashboard/
 │   ├── events/
