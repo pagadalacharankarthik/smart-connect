@@ -1,30 +1,105 @@
-# SmartConnect platform
+# SmartConnect - Community Event Management Platform
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A full-stack modern event management platform that connects communities with events.  
+Eventify enables organizations to host events efficiently while helping individuals discover, register, and earn recognition through certificates and gamification.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mindarchitecture8-9617s-projects/v0-smart-connect)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/Y2cXOSo3ne9)
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🚀 Problem Statement
 
-## Deployment
+### 🔹 For Communities
+Manual event management is time-consuming. Organizers need tools to:
+- Create and manage events
+- Track registrations
+- Monitor attendance and performance
 
-Your project is live at:
+### 🔹 For Attendees
+Users struggle to:
+- Find quality events
+- Get recognition for participation
+- Stay engaged with communities
 
-**[https://vercel.com/mindarchitecture8-9617s-projects/v0-smart-connect](https://vercel.com/mindarchitecture8-9617s-projects/v0-smart-connect)**
+---
 
-## Build your app
+## 💡 Solution
 
-Continue building your app on:
+SmartConnect provides a unified platform where:
+- Organizers manage events with analytics dashboards
+- Users discover events, register instantly, and earn certificates
+- Gamification (badges, points, leaderboard) keeps users engaged
 
-**[https://v0.app/chat/projects/Y2cXOSo3ne9](https://v0.app/chat/projects/Y2cXOSo3ne9)**
+---
 
-## How It Works
+## ✨ Features
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- 📝 **Event Discovery & Registration**  
+  Browse events with filters, register instantly, and get confirmation
+
+- 📅 **Event Management**  
+  Create events, track registrations, mark attendance
+
+- 📜 **Auto-Generated Certificates**  
+  PDF certificates generated automatically after participation
+
+- 🏆 **Gamification System**  
+  Earn badges (Bronze / Silver / Gold), gain points, climb leaderboard
+
+- 💬 **Community Feedback**  
+  Ratings, reviews, and discussion threads
+
+- 📊 **Analytics Dashboard**  
+  Real-time charts for performance tracking
+
+- 🤖 **AI Chatbot**  
+  Answers event queries and provides insights
+
+- 🌓 **Dark Mode**  
+  Persistent theme toggle
+
+- 📈 **Live Event Insights**  
+  Real-time metrics (views, registrations, attendance)
+
+- 👥 **Leaderboard**  
+  Top users ranked with medals 🥇🥈🥉
+
+- 📱 **Responsive Design**  
+  Optimized for mobile, tablet, and desktop
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- Next.js 15+
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- shadcn/ui
+
+**Other Tools**
+- Recharts (data visualization)
+- jsPDF + html2canvas (certificate generation)
+- React Hooks + Context API (state management)
+- localStorage (data storage)
+- Lucide React (icons)
+
+**Deployment**
+- Vercel
+
+---
+
+## ⚙️ Local Setup
+
+### Prerequisites
+- Node.js 16+
+- npm or yarn
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/pagadalacharankarthik/smart-connect.git
+cd smart-connect
+
+###2. Install Dependencies
